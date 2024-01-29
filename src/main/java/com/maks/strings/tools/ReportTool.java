@@ -2,7 +2,7 @@ package com.maks.strings.tools;
 
 public class ReportTool extends Tool implements Exportable{
     public void export(){
-        System.out.println("Rtool::Export");
+        System.out.println("Rtool::export");
 
     }
 

@@ -9,6 +9,7 @@ public class Employee {
      this.name= new String("joe");
       this.contract= new Boolean(true);
      this. salary=new Double(100);
+    
 
     }
     public String toString(){

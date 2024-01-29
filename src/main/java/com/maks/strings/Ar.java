@@ -2,11 +2,12 @@ package com.maks.strings;
 
 public class Ar {
     public static void main(String[] args) {
-        int nums1[]=new int [3];
+        // int nums1[]=new int [3];
+        int nums1[]= {1, 2, 3};
         int nums2[]= {1, 2, 3, 4, 5};
-        nums1=nums2;
+        nums2=nums1;
 
-        for (int i : nums1) {
+        for (int i : nums2) {
         System.out.println(i+ ":");
         }
 

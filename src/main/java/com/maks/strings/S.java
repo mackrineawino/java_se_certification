@@ -5,7 +5,7 @@ public class S {
         StringBuilder sb = new StringBuilder(5);
         System.out.println("sb" + sb.toString());
         String s = "";
-        System.out.println("s"+ s);
+        System.out.println("s" + s);
 
         if (sb.equals(s)) {
             System.out.println("1");
@@ -16,10 +16,9 @@ public class S {
             System.out.println("3");
         }
 
-
-        StringBuilder sb1=new StringBuilder("Duke");
-        String str1=sb1.toString();
-String str2 =str1;
-        System.out.println(str1==str2);
+        StringBuilder sb1 = new StringBuilder("Duke");
+        String str1 = sb1.toString();
+        String str2 = str1;
+        System.out.println(str1 == str2);
     }
 }

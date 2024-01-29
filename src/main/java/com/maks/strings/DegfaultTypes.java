@@ -1,6 +1,8 @@
 package com.maks.strings;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 public class DegfaultTypes {
     char c;
@@ -19,10 +21,16 @@ public class DegfaultTypes {
     }
 public static void main(String[] args) {
     DegfaultTypes ff= new DegfaultTypes();
-    ff.printAll();
+    // ff.printAll();
 
-    LocalDate date= LocalDate.of(2012, 01, 32);
+    LocalDate date= LocalDate.of(2012, 01, 30);
     date.plusDays(10);
     System.out.println(date);
+
+    // LocalDateTime dt=LocalDateTime.of (2014, 7, 31, 1,1);
+    // dt.plusDays(30);
+    // dt.plusMonths(1);
+    // System.out.println(dt.format(DateTimeFormatter.ISO_DATE));
+
 }
 }

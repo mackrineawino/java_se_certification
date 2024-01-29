@@ -4,6 +4,7 @@ public class Toy {
     int x, y;
     public Toy (int x,int y){
         Initialize(x, y);
+       
     }
     public void Initialize(int x,int y){
         this.x=x*x;

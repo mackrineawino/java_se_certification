@@ -18,5 +18,8 @@ public class MyField {
         m2.dostuff(m1.x, m1.y);
         m1.display();
         m2.display();
+
+        int[][] array2D;
+        int [] array2qD [];
     }
 }
