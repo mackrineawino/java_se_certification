@@ -12,6 +12,7 @@ public class Series {
             num+=2;
             
         }
+        
     }
     public static void main(String[] args) {
         new Series().displaySeries();

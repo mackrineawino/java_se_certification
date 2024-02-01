@@ -27,10 +27,10 @@ public static void main(String[] args) {
     date.plusDays(10);
     System.out.println(date);
 
-    // LocalDateTime dt=LocalDateTime.of (2014, 7, 31, 1,1);
-    // dt.plusDays(30);
-    // dt.plusMonths(1);
-    // System.out.println(dt.format(DateTimeFormatter.ISO_DATE));
+    LocalDateTime dt=LocalDateTime.of (2014, 7, 31, 1,1);
+    dt.plusDays(30);
+    dt.plusMonths(1);
+    System.out.println(dt.format(DateTimeFormatter.ISO_DATE_TIME));
 
 }
 }
