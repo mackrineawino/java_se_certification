@@ -11,9 +11,14 @@ public class Toy {
         this.y=y*y;
     }
     public static void main(String[] args) {
-        int x=3, y=5;
+         int x=3, y=5;
         Toy obj=new Toy(x, y);
         System.out.println(x + " " +y);
+        String yy="hello";
+        String yyy="hello";
+
+      boolean compare=  (yy==yyy);
+      System.out.println(compare);
 
     }
     

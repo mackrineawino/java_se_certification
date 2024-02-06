@@ -6,9 +6,9 @@ public class C11 extends C2 implements I{
     }
 
     public static void main(String[] args) {
-        C2 obj1=new C2();
+        C2 obj1=new C11();
         I obj2=new C11();
-        C2 s=obj2;
+        C2 s=(C2)obj2;
         I t=obj1;
         t.displayI();
         s.displayC2();

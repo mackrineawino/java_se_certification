@@ -1,7 +1,7 @@
 package com.maks.strings;
 
 public class Apppp {
-     int foo;
+     static int foo;
     static int bar;
     static void process(){
         foo+=10;

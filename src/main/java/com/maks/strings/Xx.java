@@ -18,8 +18,8 @@ public class Xx {
         //     System.out.println(array[x]);
         //     x--;
         // }
-        // while (x>0) {
-        //     System.out.println(array[--x]);
-        // }
+        while (x>0) {
+            System.out.println(array[--x]);
+        }
     }
 }
